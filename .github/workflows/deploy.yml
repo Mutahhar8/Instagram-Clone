@@ -2,9 +2,9 @@ name: Deploy to GAE
 
 on:
   push:
-    branches: [main]
+    branches: [branchname]
   pull_request:
-    branches: [main]
+    branches: [branchname]
 
   workflow_dispatch:
 
