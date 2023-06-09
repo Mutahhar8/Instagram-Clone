@@ -1,0 +1,102 @@
+.profile__post__container {
+    width: 615px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    margin-bottom: 25px;
+    position: relative;
+    left: 350px; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post__image {
+    width: 25%;
+    min-width: 30px;
+    min-height: 30px;
+    margin: 10px;
+}
+.liked {
+    border: 2px solid red;
+    color: red;
+}
+
+
+.profile__post__header{
+    height: 65px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+}
+.post__image{
+    min-width: 30px;
+    min-height: 30px;
+    margin: 10px;
+}
+.profile__post__username{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.profile__post__location{
+    margin-top: 30px;
+    position: relative;
+    right: 72px;
+}
+.post_reactimage {
+    width: 25px;
+    height:25px;
+    margin: 5px;
+    display: inline-flex ;
+}
+.post_comment {
+    margin: 10px;
+}
+.post__commentbox {
+    height: 56px;
+    width: 601px;
+    border: 0px;
+    border-top: 1px solid #dbdbdb;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.post__footer{
+    margin-left: 10px;
+    height: auto;
+}
+.post__description{
+    height: auto;
+    width: auto;
+    position: relative;
+    top:20px;
+    margin-left: 10px;
+}
+
+.post__description__span{
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    right: 124px;
+}
+.profile__like__div{
+    padding-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.profile__post__edit{
+    margin-left: 385px;
+    margin-top: 10px;
+}
+.profile__post__edit_location{
+    margin-left: 360px;
+}
+.profile__comment__div{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.profile__viewcomment__div{
+    border: none;
+    margin-left: 20px;
+}

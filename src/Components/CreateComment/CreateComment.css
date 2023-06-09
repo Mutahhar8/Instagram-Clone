@@ -1,0 +1,12 @@
+.comment__btn__done{
+    background-color: white;
+    color: black; 
+    margin-left:510px;
+    margin-top: 20px;
+}
+
+.comment__box{
+    position: relative;
+    left: 450px;
+}
+

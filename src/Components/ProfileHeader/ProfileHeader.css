@@ -1,0 +1,84 @@
+/* Profile Header */
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    position: relative;
+    left: 400px;
+    bottom: 70px;
+}
+.profile-header img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.profile-header .username {
+    font-size: 28px;
+    font-weight: 600;
+    margin-right: 16px;
+}
+
+.profile-header .follower-count,
+.profile-header .following-count {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+    margin-right: 16px;
+}
+
+.profile-header .follower-count span,
+.profile-header .following-count span {
+    font-weight: 700;
+    color: #000;
+}
+
+  /* Profile Info */
+.profile-info {
+    margin-bottom: 24px;
+}
+
+.profile-info .bio {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.profile-info .website a {
+    color: #385185;
+    text-decoration: none;
+}
+
+.profile-info .website a:hover {
+    text-decoration: underline;
+}
+
+.profile-info .email,
+.profile-info .phone {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Profile Posts */
+.profile-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.profile-posts .post img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-posts .post .caption {
+    font-size: 14px;
+    margin-top: 8px;
+}
+.addicon{
+    margin-left: 20px;
+}

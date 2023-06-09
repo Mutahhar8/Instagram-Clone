@@ -1,0 +1,14 @@
+.mycard{
+    border: 2px solid black;
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.vert__item{
+    margin-left: 20px;
+    font-weight: bold;
+
+}

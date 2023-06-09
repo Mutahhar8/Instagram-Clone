@@ -1,0 +1,97 @@
+/* Profile Header */
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.editprofile-header {
+    display: inline-table;
+    align-items: center;
+    margin-bottom: 24px;
+    position: relative;
+    left: 500px;
+    bottom: 70px;
+}
+.editprofile-header img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.editprofile-header .username{
+    font-weight: bold;
+    margin-right: 16px;
+    margin-top: 10px;
+    display: flexbox
+}
+.editprofile-header .follower-count,
+.editprofile-header .following-count {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+    margin-right: 16px;
+}
+
+.editprofile-header .follower-count span,
+.editprofile-header .following-count span {
+    font-weight: 700;
+    color: #000;
+}
+
+  /* Profile Info */
+.profile-info {
+    margin-bottom: 24px;
+}
+
+.profile-info .bio {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.profile-info .website a {
+    color: #385185;
+    text-decoration: none;
+}
+
+.profile-info .website a:hover {
+    text-decoration: underline;
+}
+
+.profile-info .email,
+.profile-info .phone {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Profile Posts */
+.profile-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.profile-posts .post img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-posts .post .caption {
+    font-size: 14px;
+    margin-top: 8px;
+}
+img{
+    margin-bottom: 10px;
+}
+.btn__done{
+    position: relative;
+    background-color: white;
+    color: black; 
+    left:680px;
+    bottom:70px 
+}
+
+.show-tooltip {
+    content: attr(title);
+    height: auto;
+    width: auto;
+}

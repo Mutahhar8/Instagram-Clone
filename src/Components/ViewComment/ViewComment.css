@@ -1,0 +1,17 @@
+.view__mycard{
+    border: 2px solid black;
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.view__vert__item{
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+.view__comment__box{
+    margin-left: 20px;
+}
